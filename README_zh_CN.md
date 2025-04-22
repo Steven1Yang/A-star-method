@@ -43,7 +43,7 @@ A-star-method/
 ├── FifteenDigits_Initial.py       # 初始操作版本
 ├── ListMethodsCustomize.py        # 定制目标和初始状态
 ├── README.md                      # 英文介绍
-└── README_CN.md                   # 本文件
+└── README_zh_CN.md                   # 本文件
 ```
 
 ---
