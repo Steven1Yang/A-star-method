@@ -1,4 +1,3 @@
-```markdown
 # 🧩 15 Puzzle Solver with A* Algorithm
 
 This project implements the **A\*** (A-star) search algorithm to solve the classic **15-puzzle** (sliding tile puzzle). It uses an admissible heuristic (Manhattan distance) to find the optimal solution efficiently.
@@ -108,8 +107,3 @@ Time taken: 0.021s
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 ```
 
----
-
-你可以直接将上面的内容复制粘贴到 GitHub 仓库中的 `README.md` 文件里。
-
-如果你有需要调整的地方或者想要中文版本，随时告诉我！
