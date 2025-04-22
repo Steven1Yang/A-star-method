@@ -42,7 +42,7 @@ A-star-method/
 ├── FifteenDigits_Initial.py       # First Operation
 ├── ListMethodsCustomize.py        # Customize The Target and The Initial
 ├── README.md                      # This file
-└── README_CN.md                   # Mandarin Version of README
+└── README_zh_CN.md                   # Mandarin Version of README
 ```
 
 ---
