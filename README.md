@@ -33,11 +33,15 @@ You can move adjacent tiles into the blank space.
 
 ```
 A-star-method/
-├── astar.py          # Core A* search implementation
-├── puzzle.py         # Puzzle state logic and heuristics
-├── utils.py          # Helpers: solvability, printing, etc.
-├── main.py           # Main entry point
-└── README.md         # This file
+├── utils/                         # Useful Tools
+│   ├── Classes.py
+│   └── Functions.py
+├── Comprehesive.py                # Simple Run
+├── EightDigits.py                 # Simplified For EightDigits
+├── FifteenDigits_Best.py          # Best Operation
+├── FifteenDigits_Initial.py       # First Operation
+├── ListMethodsCustomize.py        # Customize The Target and The Initial      
+└── README.md                      # This file
 ```
 
 ---
@@ -66,7 +70,7 @@ cd A-star-method
 2. Run the program:
 
 ```bash
-python main.py
+python xxx.py          # Replace xxx With The Specific Script Name
 ```
 
 3. Enter the initial state (use `0` for the blank):
@@ -101,9 +105,4 @@ Time taken: 0.021s
 - [ ] Compare with IDA* performance
 
 ---
-
-## 📜 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
 
