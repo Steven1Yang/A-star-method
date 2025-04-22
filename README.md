@@ -40,8 +40,9 @@ A-star-method/
 ├── EightDigits.py                 # Simplified For EightDigits
 ├── FifteenDigits_Best.py          # Best Operation
 ├── FifteenDigits_Initial.py       # First Operation
-├── ListMethodsCustomize.py        # Customize The Target and The Initial      
-└── README.md                      # This file
+├── ListMethodsCustomize.py        # Customize The Target and The Initial
+├── README.md                      # This file
+└── README_CN.md                   # Mandarin Version of README
 ```
 
 ---
