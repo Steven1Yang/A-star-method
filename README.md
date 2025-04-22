@@ -1,3 +1,4 @@
+```markdown
 # 🧩 15 Puzzle Solver with A* Algorithm
 
 This project implements the **A\*** (A-star) search algorithm to solve the classic **15-puzzle** (sliding tile puzzle). It uses an admissible heuristic (Manhattan distance) to find the optimal solution efficiently.
@@ -8,3 +9,107 @@ This project implements the **A\*** (A-star) search algorithm to solve the class
 
 The 15-puzzle is a 4x4 grid containing 15 numbered tiles and one empty space. The objective is to slide the tiles into the correct order:
 
+```
+ 1  2  3  4  
+ 5  6  7  8  
+ 9 10 11 12  
+13 14 15  _  
+```
+
+You can move adjacent tiles into the blank space.
+
+---
+
+## 🚀 Features
+
+- ✅ A* Search with **Manhattan Distance** heuristic
+- ✅ Solvability check before attempting to solve
+- ✅ Step-by-step path output
+- ✅ Shows total moves, time taken, and nodes expanded
+- 🔧 Easily extendable to other heuristics
+
+---
+
+## 📂 Project Structure
+
+```
+A-star-method/
+├── astar.py          # Core A* search implementation
+├── puzzle.py         # Puzzle state logic and heuristics
+├── utils.py          # Helpers: solvability, printing, etc.
+├── main.py           # Main entry point
+└── README.md         # This file
+```
+
+---
+
+## 🧠 Heuristic Function
+
+The **Manhattan Distance** heuristic is the sum of the distances each tile is from its goal position:
+
+```
+h(n) = Σ |current_row - goal_row| + |current_col - goal_col|
+```
+
+It is **admissible** and ensures optimal solutions.
+
+---
+
+## 🛠️ How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Steven1Yang/A-star-method.git
+cd A-star-method
+```
+
+2. Run the program:
+
+```bash
+python main.py
+```
+
+3. Enter the initial state (use `0` for the blank):
+
+```
+Enter the initial state (e.g. '1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 0'):
+```
+
+---
+
+## ✅ Example
+
+```
+Input:
+1 2 3 4 5 6 7 8 9 10 11 12 13 15 14 0
+
+Output:
+Puzzle is solvable.
+Solving...
+Moves required: 2
+Path: Left → Left
+Nodes expanded: 14
+Time taken: 0.021s
+```
+
+---
+
+## 🧪 To Do
+
+- [ ] Add more heuristics (e.g., linear conflict)
+- [ ] GUI visualization
+- [ ] Compare with IDA* performance
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+```
+
+---
+
+你可以直接将上面的内容复制粘贴到 GitHub 仓库中的 `README.md` 文件里。
+
+如果你有需要调整的地方或者想要中文版本，随时告诉我！
