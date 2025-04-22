@@ -1,5 +1,3 @@
-下面是适合直接复制到 GitHub 的 **中文版本** `README.md` 文件（Markdown 格式）：
-
 ```markdown
 # 🧩 15 个使用 A* 算法的谜题求解器
 
